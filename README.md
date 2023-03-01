@@ -1,1 +1,1 @@
-# quire-chrome-extension
+# Quire Chrome Extension
