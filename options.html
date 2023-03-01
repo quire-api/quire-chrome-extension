@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://quire.io/s/css/bootstrap/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://quire.io/s/css/workspace.css" />
+	<link rel="stylesheet" type="text/css" href="/options.css" />
+	<title>Quire Notification Options</title>
+</head>
+<body data-qs="qs">
+	<div class="main">
+		<div class="header">
+			<div class="logo">
+				<img src="/logo/logomark_optionPage_38.png" />
+			</div>
+			<span class="title">Desktop Notifications</span>
+		</div>
+		<input type="radio" name="notify" id="turnon"> Notify every
+		<select id="period" class="form-control">
+			<option value="300000">5 minutes</option>
+			<option value="900000">15 minutes</option>
+			<option value="1800000">30 minutes</option>
+			<option value="3600000">1 hour</option>
+			<option value="7200000">2 hours</option>
+		</select>
+		<br/>
+		<input type="radio" name="notify" id="turnoff"> Do not notify
+		<span class="turn-off-desc">Show only notification count on icon badge</span>
+
+		<div id="status"></div>
+		<button id="save" class="b green sm">Save</button>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://quire.io/r/mesg.js"></script>
+<script src="https://quire.io/s/js/pack.min.js"></script>
+<script src="options.js"></script>
+</body>
+</html>
