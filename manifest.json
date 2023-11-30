@@ -1,6 +1,6 @@
 {
   "name": "Quire",
-  "version": "0.9.30",
+  "version": "0.9.31",
   "description": "Quire is a modern collaborative project management software made to help visionary teams with big ideas. Like yours.",
   "permissions": [
     "notifications",

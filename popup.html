@@ -8,20 +8,26 @@
 	<link rel="stylesheet" type="text/css" href="/popup.css" />
 	<title>Notifications - Quire Chrome Extension</title>
 </head>
-<body data-qs="qs">
+<body data-qs="qs" data-user-id="q-goo-ext">
 	<a href="#"></a>
 	<div class="item t-notification open">
 		<ul class="arrow-dropdown-menu dropdown-menu">
 			<li class="dropdown-header">
-				<a class="pull-right mk-rd-btn hide" href="#">Mark All as Read</a>
-				<div class="logo">
-					<a href="/" title="Quire"></a>
-				</div>
+				<ul class="nav nav-tabs nav-underline" role="tablist">
+					<li class="tab-item tab-notif active" role="presentation">
+						<a href="#" role="tab"><span class="txt">Notifications</span></a>
+					</li>
+					<li class="tab-item tab-deleted hide" role="presentation">
+						<a href="#" role="tab"><span class="txt">Deleted</span></a>
+					</li>
+				</ul>
+				<a class="pull-right mk-rd-btn" href="#">Mark All as Read</a>
 			</li>
 			<li class="scroll-content">
 			<div class="ntf-cnt content">
 <ul class="ntf-list dropdown-list dropdown-menu"><li></li></ul>
 <div class="message-empty">You don't have any notifications.</div>
+<div class="message-empty message-empty--deleted">No recently deleted notifications.</div>
 <div class="scroller-buttons">
   <button class="scroller-btn b white">New notifications</button>
 </div>

@@ -9,7 +9,7 @@ ga('set', 'checkProtocolTask', null);
 ga('send', 'pageview', '/ge/options'); //GA reject url like chrome-extension://...
 
 	$.ajaxSetup({
-		headers: {"Quire-Agent": "Chrome-Extension 0.9.30"}
+		headers: {"Quire-Agent": "Chrome-Extension 0.9.31"}
 	});
 
 	var $period = $('#period'),
