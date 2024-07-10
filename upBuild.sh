@@ -10,7 +10,7 @@ VERSION=$2
 for file in $(ls *html)
 do
 	echo "update build number: $file"
-	sed -i '' "s#.io/b.*r/en_US#.io/b$BUILD/r/en_US#g" $file
+	sed -i '' "s#.io/b.*r/mesg#.io/b$BUILD/r/mesg#g" $file
 	sed -i '' "s#.io/b.*s/js/pack#.io/b$BUILD/s/js/pack#g" $file
 done
 

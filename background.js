@@ -9,7 +9,7 @@ ga('set', 'checkProtocolTask', null);
 ga('send', 'pageview', '/ge/background'); //GA reject url like chrome-extension://...
 
 	$.ajaxSetup({
-		headers: {"Quire-Agent": "Chrome-Extension 0.9.31"}
+		headers: {"Quire-Agent": "Chrome-Extension 0.9.32"}
 	});
 
 	var loadNotificationPeriod = 60000, //1 min, same as server
